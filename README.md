@@ -1,4 +1,4 @@
-# Welcome to ZZSC9020 GitHub repository for group [GROUP-NAME]
+# Welcome to ZZSC9020 GitHub repository for group [THE BIG FANs]
 
 This GitHub repository is the main point of access for students and lecturers of the ZZSC9020 capstone course. 
 
@@ -9,15 +9,14 @@ Complete the information below regarding your group.
 ## Group and project information
 
 ### Group members and zIDs
-- Member 1 (zID1) - Group leader
-- Member 2 (zID2) - role
-- Member 3 (zID3) - role
-- Member 4 (zID4) - role
+- Member 1 (z5281789) - (Nee) Jittinun Trairattanasirikul
+- Member 2 (z5275314) - (Ruhul) Md Ruhul Amin Sarker
+- Member 3 (z5017159) - Peter Morian
+- Member 4 (z5283034) - James Cleaver
 - Member 5 (zID5) - role
 
 ### Brief project description
-
-Describe your project in one paragraph.
+This project is using the a collection of data for energy demand and weather, it is deisgned to provide synthetic data for modeling of future energy scenarios.
 
 ## Repository structure
 
