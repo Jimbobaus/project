@@ -1,4 +1,4 @@
-# Welcome to ZZSC9020 GitHub repository for group [THE BIG FANs]
+# Welcome to ZZSC9020 GitHub repository for group [The What Watts - Group A]
 
 This GitHub repository is the main point of access for students and lecturers of the ZZSC9020 capstone course. 
 
