@@ -29,3 +29,9 @@ The repository has the following folder structure:
 - minutes: minutes for each meeting (left not more than 24h after the corresponding meeting)
 - report: RMarkdown or Jupyter notebook report in progress
 - src: source code
+
+Collaboration Links
+- Github: https://github.com/Jimbobaus/project---What-Watts---Group-A 
+- Colab: https://colab.research.google.com/drive/1IXj4h4qc0tjctBQyXK6PHkSzmOgObEb_?authuser=1#scrollTo=vrbE71CAV4wX&uniqifier=4 
+- Google Drive: https://drive.google.com/drive/u/1/folders/1qLVyU_Nj5m9H9YgDEdrRpft6awg0tCxM 
+
