@@ -13,7 +13,6 @@ Complete the information below regarding your group.
 - Member 2 (z5275314) - (Ruhul) Md Ruhul Amin Sarker
 - Member 3 (z5017159) - Peter Morian
 - Member 4 (z5283034) - James Cleaver
-- Member 5 (zID5) - role
 
 ### Brief project description
 This project is using the a collection of data for energy demand and weather, it is deisgned to provide synthetic data for modeling of future energy scenarios.
