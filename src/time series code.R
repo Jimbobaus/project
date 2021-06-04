@@ -22,11 +22,13 @@ train_y = subset(all_y, end=0.8*length(all_y))   # first 80%
 test_y= subset(all_y, start=0.8*length(all_y)+1) # last 20%
 
 # --- convert to time series format
-findfrequency(train_y) # frequency of 48 (number of 30min intervals in a day)
+findfrequency(train_y) # 48 (number of 30min intervals in a day)
 train_y_ts =ts(train_y, frequency = 48)
 
 # --- summary stats of training data
 (train_y_ts_summary=describe(train_y_ts))
+# vars      n    mean      sd  median trimmed     mad     min      max   range skew kurtosis   se
+# X1    1 161185 7970.52 1240.24 7925.72 7914.81 1246.72 5074.63 13985.87 8911.24 0.47     0.21 3.09
 
 # --- model
 (model_arima = auto.arima(train_y_ts, seasonal = F)) # arima(3,1,2)
@@ -35,18 +37,18 @@ train_y_ts =ts(train_y, frequency = 48)
 # 
 # Coefficients:
 #   ar1     ar2      ar3      ma1      ma2
-# 1.3414  0.0205  -0.4169  -0.5756  -0.4069
-# s.e.  0.0135  0.0243   0.0114   0.0138   0.0137
+# 1.3357  0.0311  -0.4233  -0.5668  -0.4143
+# s.e.  0.0127  0.0229   0.0107   0.0129   0.0128
 # 
-# sigma^2 estimated as 13017:  log likelihood=-884104.6
-# AIC=1768221   AICc=1768221   BIC=1768280
+# sigma^2 estimated as 12944:  log likelihood=-991782.5
+# AIC=1983577   AICc=1983577   BIC=1983637
 
 # --- accuracy
 test_y_ts =ts(test_y, frequency = 48)
 model_results <- Arima(test_y_ts, model=model_arima)
-accuracy(model_results) # 111.1632 RMSE
+accuracy(model_results) # 113.7675 RMSE
 # ME     RMSE      MAE         MPE   MAPE      MASE       ACF1
-# Training set -0.05357386 111.1632 82.49621 -0.01114305 1.0509 0.1793849 0.07106744
+# Training set 0.006098198 113.7675 83.90262 -0.01790531 1.042687 0.1888699 0.02374432
 
 
 
