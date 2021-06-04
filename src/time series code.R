@@ -1,12 +1,8 @@
 # --- packages
 library(data.table)
-library(gdata)
-library(janitor)
 library(dplyr)
-library(stringr)
-library(sqldf)
-library(gsubfn)
 library(forecast)
+library(lubridate)
 library(psych)
 
 # --- directories
@@ -18,8 +14,8 @@ train_y_loc=paste(input_loc,train_y_name,sep="")
 test_y_loc=paste(input_loc,test_y_name,sep="")
 
 # --- import data
-train_y = setDT(read.csv(train_y_loc, header=T))[,2]
-test_y = setDT(read.csv(test_y_loc, header=T))[,2]
+train_y = setDT(read.csv(train_y_loc, header=T))
+test_y = setDT(read.csv(test_y_loc, header=T))
 all = setDT(rbind(train_y,test_y))[order(DATETIME)] %>% mutate(DATETIME=ymd_hms(DATETIME))
 all_y = data.frame(all$TOTALDEMAND)
 train_y = subset(all_y, end=0.8*length(all_y))   # first 80%
