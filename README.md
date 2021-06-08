@@ -43,18 +43,16 @@ Reason: As we are regularly communicating through Whatsapp via messaging, it was
 - Other (MyBib [https://www.mybib.com/j/AheadCertainChicken])
 
 Reason: Github is fantastic for source code management, ensuring that we commit updated code at the correct time.
-As we are taking an agile approach and want to pull work, rather than push work, Jira was chosen
-For document creation, the ability for simultaneous editing was essential, hence we chose google drive
-MyBib is for collaborative referencing
+As we are taking an agile approach and want to pull work, rather than push work, Jira was chosen.
+For document creation, the ability for simultaneous editing was essential, hence we chose google drive.
+MyBib is for collaborative referencing.
 
 ### Software used for data analysis
 - Python
 - Other (Google Colab [https://colab.research.google.com/drive/1IXj4h4qc0tjctBQyXK6PHkSzmOgObEb_], Power BI [app.powerbi.com])
 
-Reason: The industry is moving towards Python and it has all the features that we require
-The capstone is an opportunity to extend our Python skills
-Google Colab provides both GPU and the ease of sharing code efficiently with each other
-Power BI is useful for data visualisation
+Reason: The industry is moving towards Python and it has all the features that we require. The capstone is an opportunity to extend our Python skills.
+Google Colab provides both GPU and the ease of sharing code efficiently with each other. Power BI is useful for data visualisation.
 
 ### Software used to write group report in a reproducible manner
 - Google Colab [https://colab.research.google.com/drive/1IXj4h4qc0tjctBQyXK6PHkSzmOgObEb_]
@@ -64,10 +62,10 @@ Reason: As our report will require some generated output, with formatting, Rmark
 
 ### Software used for oral presentation
 - Powerpoint
-- RShiny [https://shiny.rstudio.com/]
+- PowerBI
 
-Reason: For components of the audio presentation it is important to have key concepts displayed, often in a static format so that the explanations take priority, this will be done with Powerpoint
-For components where visualisations and interactive components showcased, we will use Rshiny
+Reason: For components of the audio presentation it is important to have key concepts displayed, often in a static format so that the explanations take priority, this will be done with Powerpoint.
+For components where visualisations and interactive components showcased, we will use PowerBI.
 
 ### List of additional software
 - Draw.io [https://app.diagrams.net/#HJimbobaus%2Fproject%2Fmain%2Fminutes%2FThe%20Big%20Fans.drawio], as a online collaborative mind mapping tool
