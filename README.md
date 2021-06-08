@@ -58,7 +58,7 @@ Google Colab provides both GPU and the ease of sharing code efficiently with eac
 - Google Colab [https://colab.research.google.com/drive/1IXj4h4qc0tjctBQyXK6PHkSzmOgObEb_]
 - Rmarkdown
 
-Reason: As our report will require some generated output, with formatting, Rmarkdown was chosen as it enables us to run the code inside the document, before knitting into the final document, It also provides the flexibility of LaTex to format the output, As Rmarkdown can run both python and R code, it was a good choice. As our coding is being done in GOogle Colab, the code required for Rmarkdown will be generated or taken from there. 
+Reason: As our report will require some generated output, with formatting, Rmarkdown was chosen as it enables us to run the code inside the document, before knitting into the final document, It also provides the flexibility of LaTex to format the output, As Rmarkdown can run both python and R code, it was a good choice. As our coding is being done in Google Colab, the code required for Rmarkdown will be generated or taken from there. 
 
 ### Software used for oral presentation
 - Powerpoint
