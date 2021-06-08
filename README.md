@@ -36,7 +36,10 @@ The repository has the following folder structure:
 Reason: As we are regularly communicating through whats app via messaging, it was important that in a twice weekly status and retrospective we met face to face, zoom and webex both offer these features
 
 ### Software used to manage work collaboratively
-- Github [https://github.com/Jimbobaus/project---What-Watts---Group-A/], Jira [https://zzcs9020-groupa.atlassian.net/jira/software/projects/WW/boards/1/roadmap], Google Drive [https://drive.google.com/drive/u/1/folders/1qLVyU_Nj5m9H9YgDEdrRpft6awg0tCxM], Other (MyBib [https://www.mybib.com/j/AheadCertainChicken])
+- Github [https://github.com/Jimbobaus/project---What-Watts---Group-A/]
+- Jira [https://zzcs9020-groupa.atlassian.net/jira/software/projects/WW/boards/1/roadmap]
+- Google Drive [https://drive.google.com/drive/u/1/folders/1qLVyU_Nj5m9H9YgDEdrRpft6awg0tCxM]
+- Other (MyBib [https://www.mybib.com/j/AheadCertainChicken])
 
 Reason: Github is fantastic for source code management, ensuring that we commit updated code at the correct time.
 As we are taking an agile approach and want to pull work, rather than push work, Jira was chosen
