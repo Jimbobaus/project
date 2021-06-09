@@ -49,9 +49,11 @@ MyBib is for collaborative referencing.
 
 ### Software used for data analysis
 - Python
+- R
 - Other (Google Colab [https://colab.research.google.com/drive/1IXj4h4qc0tjctBQyXK6PHkSzmOgObEb_], Power BI [app.powerbi.com])
 
 Reason: The industry is moving towards Python and it has all the features that we require. The capstone is an opportunity to extend our Python skills.
+R was used mainly for Time Series analysis due to its useful functions.
 Google Colab provides both GPU and the ease of sharing code efficiently with each other. Power BI is useful for data visualisation.
 
 ### Software used to write group report in a reproducible manner
