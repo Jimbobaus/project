@@ -4,6 +4,7 @@ library(dplyr)
 library(forecast)
 library(lubridate)
 library(psych)
+library(openxlsx)
 
 # --- directories
 input_loc= "~/input/"
@@ -44,12 +45,20 @@ train_y_ts =ts(train_y, frequency = 48)
 # sigma^2 estimated as 13143:  log likelihood=-794412.1
 # AIC=1588838   AICc=1588838   BIC=1588907
 
+(model_arima = auto.arima(train_y_ts, seasonal = T)) # sarima(4,1,2)(,,)[]
+
 # --- accuracy
 test_y_ts =ts(test_y, frequency = 48)
 model_results <- Arima(test_y_ts, model=model_arima)
 accuracy(model_results) # 110.615 RMSE
 # ME    RMSE     MAE          MPE     MAPE      MASE       ACF1
 # Training set -0.1000962 110.615 82.1002 -0.009748878 1.039758 0.1801267 0.05788134
+
+# --- store results
+test_timeframe <- tail(all, 0.2*nrow(all))
+results <- data.table(cbind(test_timeframe, model_results$fitted))
+colnames(results) <- c("Time", "Test", "Fitted")
+write.csv(results, paste0(output_loc, "time_series_data.csv"))
 
 
 
